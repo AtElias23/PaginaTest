@@ -85,6 +85,7 @@ form{
     position: relative;
     font-weight: bold;
     border-radius: 10px;
+    animation-delay: 1.6s;
 }
 header{
     border-radius: 5px;
