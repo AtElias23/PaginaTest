@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="CSS/Estilo General.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <header class="animate__animated animate__fadeInDown">
+         <h1>TUS GUSTOS</h1>
+        </header>
+          <nav>
+            <a class="nav" href="Index.html">Home</a>
+            <a class="nav" href="About.html">Acerca de</a>
+            <a class="nav" href="Contacto.html">Contacto</a>
+            <a class="nav" href="Registro.html">Registro</a>
+            <a class="nav" href="Sucursales.html">Sucursales</a>
+          </nav>
+          <section class="formulario">
+          <form action="show_data.html" target="_blank">
+           <label class="label1" for="firstname">Nombre:</label> <input type="text" name="firstname" placeholder="Ingrese su nombre aquí..."><br><br>
+           <label for="lastname">Apellido:</label> <input type="text" name="lastname" placeholder="Ingrese su apellido aquí..." ><br><br>
+           <label for="street">Dirección:</label> <input type="text" name="street" placeholder="Ingrese su dirección aquí..."><br><br>
+           <label for="city">Ciudad:</label> <input type="text" name="city" value="Resistencia"><br><br>
+           <label for="zipcode">Código Postal:</label> <input type="text" name="zipcode" placeholder="Ingrese su codigo postal..." ><br><br>
+           <label for="birthdate">Fecha de Nacimiento (mm/dd/yyyy):</label> <input type="date" name="birthdate" ><br>
+           <p>
+                Género:
+                <input type="radio" name="gender" value="hombre" checked>Hombre
+                <input type="radio" name="gender" value="mujer">Mujer
+                <input type="radio" name="gender" value="otrx">Otrx
+           </p>
+           <p>
+            Estudios:
+            <input type="checkbox" name="estudio" value="primarios">Primarios
+            <input type="checkbox" name="estudio" value="secundarios">Secundarios
+            <input type="checkbox" name="estudio" value="terciarios">Terciarios
+            <input type="checkbox" name="estudio" value="universitarios">Universitarios
+            <input type="checkbox" name="estudio" value="otros">Otros
+           </p>
+            <input type="submit" value="Enviar">
+          </form>
+          <p class="enviar">
+            Si envia esto se va a mandar a "show_data.html".
+          </p>
+        </section>
+      
+          <footer>
+            <br>
+            <p align="center">Derechos Reservados 2023</p>
+            <br>
+        </footer>
+</body>
+</html>

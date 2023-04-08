@@ -1,0 +1,122 @@
+
+p {
+    font-size: medium;
+    font-family: Helvetica;
+    font-weight: lighter;
+    color: white;
+}
+nav{
+    background-color:#9c0720;
+    width: auto;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+header{
+    text-align: center;
+    font-family: helvetica;
+    background-color: #9c0720;
+    color:white;
+    font-weight: bold;
+}
+h3{
+    font-family: helvetica;
+    color: white;
+    background-color: #9c0720;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+}
+body{
+    background-color: #20201f;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    position: relative;
+    top: 15px;
+    font-family: helvetica;
+    background-color: #565651;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: #9c0720;
+    color: beige;
+    margin-top: auto;
+    border-radius: 10px;
+
+}
+.mapa{
+    border-radius: 10px;
+    border-color: beige;
+    border-style: solid;
+    margin:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mapa2{
+    margin: 10px;   
+}
+form{
+    background-color:#20201f;
+    margin: auto;
+    font-family: helvetica;
+    color: white;
+}
+.formulario{
+    padding: 10px;
+}
+.enviar{
+    background-color: #9c0720;
+    font-family: helvetica;
+    color:white;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+    border-radius: 10px;
+}
+header{
+    border-radius: 5px;
+}
+.correo{
+    position: relative;
+    font-family: helvetica;
+    background-color: #565651;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.ingredientes{
+    background-color: #565651;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+}
+ul{
+    padding-left: 2rem;
+    border-color: #9c0720;
+    border-width: 10px;
+    color: white;
+    list-style: square;
+    list-style-position: inside;
+    border: 1rem;
+    display: inline-block;
+}
+li{
+    background-color: #565651;
+    border: 1px solid white;
+    border-block: 1px solid white;
+    padding: 10px;
+
+}
