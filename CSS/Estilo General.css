@@ -1,5 +1,8 @@
-
-p {
+h5{
+    font-family: helvetica;
+    font-style: oblique;
+}
+p{
     font-size: medium;
     font-family: Helvetica;
     font-weight: lighter;
@@ -117,6 +120,11 @@ li{
     border: 1px solid white;
     border-block: 1px solid white;
     padding: 1rem;
+}
+img{
+    border-radius: 10px;
+    border-color: #9c0720;
+    border: 5px solid #565651;
 }
 .example {
     padding: 1.5rem;
